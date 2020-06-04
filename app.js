@@ -18,7 +18,7 @@ var app = express();
 var mobile = azureMobileApps({
     // Explicitly enable the Azure Mobile Apps home page
     homePage: true
-    swagger: true
+    swagger: true 
 });
 
 // Import the files from the tables directory to configure the /tables endpoint
